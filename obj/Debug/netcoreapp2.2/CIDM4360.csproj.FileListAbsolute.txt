@@ -1,0 +1,4 @@
+C:\Users\katum\Desktop\CIDM4360\obj\Debug\netcoreapp2.2\CIDM4360.csprojAssemblyReference.cache
+C:\Users\katum\Desktop\CIDM4360\obj\Debug\netcoreapp2.2\CIDM4360.csproj.CoreCompileInputs.cache
+C:\Users\katum\Desktop\CIDM4360\obj\Debug\netcoreapp2.2\CIDM4360.AssemblyInfoInputs.cache
+C:\Users\katum\Desktop\CIDM4360\obj\Debug\netcoreapp2.2\CIDM4360.AssemblyInfo.cs
