@@ -7,17 +7,30 @@ class Invoice{
     string nvDate;
 
     int total;
+    List<Item> items = new List<Item>();
+    List<InvoiceEntry> entry = new List<InvoiceEntry>();
     public Invoice(int j,string d){
-
+      InvNum=j;
+      nvDate=d;
+      
      }
 
-    public void addInvEntry(){
-      
+
+    public void addInvEntry(Item i,ref int ReqQuantity,ref int q){
+      if(q==ReqQuantity || q>0){
+      items.Add(i);
+      }else{
+        Console.WriteLine("Required items not available");
+      }
     }
-    public void removeInvEntry(){    
+    public void removeInvEntry( int l){ 
+       Item.LineNo=l;
+      if (items.Contains (l)){
+        items.Remove(l);
+      }
 
     }
-    public void updateTotal(){
+    private void updateTotal(ref int i){
 
     }
     public void updateLineNumber(){
