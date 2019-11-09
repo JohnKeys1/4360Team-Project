@@ -17,7 +17,7 @@ class Item{
      }
 
     public void updateAvlbQty(float q){
-       Console.WriteLine("The current available amount amount of " + Description + " is " + availableQty);
+       Console.WriteLine("The current available amount of " + Description + " is " + availableQty);
      
           availableQty+=q;
           Console.WriteLine("New Quantity is: " + availableQty);

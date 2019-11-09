@@ -24,7 +24,7 @@ class Invoice{
             entry.Add(x);            
             return true;
         }
-        //if there is not enough stock to fill the order do not allow it to be added to the invoice
+
         else
         {
             return false;
@@ -52,11 +52,11 @@ class Invoice{
       total +=t;
     }
     public void updateLineNumber(){
-      int Cntr = 1; // 
+      int Counter = 1; // 
         foreach(InvoiceEntry e in entry)
         {
-            e.setLineNumber(Cntr);
-            Cntr++;
+            e.setLineNumber(Counter);
+            Counter++;
         }   
     }
     public void printInvoice(){
