@@ -7,7 +7,7 @@ class Item{
     string Description;
     float availableQty;
     float UnitPrice;
-    //  List<Item> items = new List<Item>();
+//    Invoice ItemInvoice;
 
      public Item(int i,string d,float a,float u){
                 ID=i;
@@ -16,17 +16,11 @@ class Item{
                 UnitPrice=u;
      }
 
-    public float updateAvlbQty(ref int q){
-      int Qnty=q;
-      if(availableQty==0 || availableQty>0){
+    public void updateAvlbQty(float q){
+       Console.WriteLine("The current available amount amount of " + Description + " is " + availableQty);
+     
           availableQty+=q;
-
-      }else{
-          Console.WriteLine("available quantity must be greater or equal to 0");
-      }
-      
-
-        return availableQty;
+          Console.WriteLine("New Quantity is: " + availableQty);
     }
     public float getPrice(){
       
@@ -44,8 +38,12 @@ class Item{
 
         return ID;
     }
+    public float getAvlblQnty()
+    {
+        return availableQty;
+    }
     public void displayItem(){
-        Console.WriteLine("{0},{1}",ID,Description);
+        Console.WriteLine("{0},{1}, {2}",ID,Description,UnitPrice);
       
     }
 

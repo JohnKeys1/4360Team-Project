@@ -2,3 +2,10 @@ C:\Users\katum\Desktop\CIDM4360\obj\Debug\netcoreapp2.2\CIDM4360.csprojAssemblyR
 C:\Users\katum\Desktop\CIDM4360\obj\Debug\netcoreapp2.2\CIDM4360.csproj.CoreCompileInputs.cache
 C:\Users\katum\Desktop\CIDM4360\obj\Debug\netcoreapp2.2\CIDM4360.AssemblyInfoInputs.cache
 C:\Users\katum\Desktop\CIDM4360\obj\Debug\netcoreapp2.2\CIDM4360.AssemblyInfo.cs
+C:\Users\katum\Desktop\CIDM4360\bin\Debug\netcoreapp2.2\CIDM4360.deps.json
+C:\Users\katum\Desktop\CIDM4360\bin\Debug\netcoreapp2.2\CIDM4360.runtimeconfig.json
+C:\Users\katum\Desktop\CIDM4360\bin\Debug\netcoreapp2.2\CIDM4360.runtimeconfig.dev.json
+C:\Users\katum\Desktop\CIDM4360\bin\Debug\netcoreapp2.2\CIDM4360.dll
+C:\Users\katum\Desktop\CIDM4360\bin\Debug\netcoreapp2.2\CIDM4360.pdb
+C:\Users\katum\Desktop\CIDM4360\obj\Debug\netcoreapp2.2\CIDM4360.dll
+C:\Users\katum\Desktop\CIDM4360\obj\Debug\netcoreapp2.2\CIDM4360.pdb

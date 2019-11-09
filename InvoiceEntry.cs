@@ -5,16 +5,29 @@ using System.Collections.Generic;
 class InvoiceEntry{
 int LineNo;
 int Qnty;
-public int getLine(int ln){
-    this.LineNo=ln;
+
+// Invoice EntryInvoice;
+Item ItemEntry;
+
+public InvoiceEntry(int l, int q, Item i)
+    {
+        LineNo = l; 
+        Qnty = q;
+        ItemEntry = i;
+    } 
+public int getLine(){
     return LineNo;
 }
-public void setLineNumber(int LineNum){
-    LineNum=LineNo;
+public void setLineNumber(int lineNum){
+    LineNo=lineNum;
 }
 public int getQnty(){
     
     return Qnty;
     
 }
+public Item getItem()
+    {
+        return ItemEntry;
+    }
 }
